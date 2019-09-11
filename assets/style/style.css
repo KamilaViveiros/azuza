@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.flex--nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo--nav {
+  width: 80px;
+  margin-right: 70px;
+}
+
+.menu li {
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  color: #795aa5;
+}
+
+.menu--dropdown {
+  display: none;
+  position: absolute;
+}
+
+.menu li:hover .menu--dropdown {
+  display: block;
+  padding: 10px 0;
+}
+
+.menu--dropdown li {
+  padding: 5px 0;
+}
+
+.banner {
+  background-image: url("../img/slide1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.line {
+  border-top: 1px solid black;
+  width: 93px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  color: #795aa5;
+  padding: 3%;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #795aa5;
+  font-size: 30px;
+}
+
+table {
+  background-color: #efd079;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+tr {
+  height: 40px;
+}
+/*# sourceMappingURL=style.css.map */
