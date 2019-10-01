@@ -34,6 +34,12 @@ a:hover {
   opacity: 0.6;
 }
 
+h2 {
+  text-transform: uppercase;
+  color: #795aa5;
+  font-size: 20px;
+}
+
 .nav {
   position: fixed;
   width: 100%;
@@ -80,20 +86,13 @@ a:hover {
 }
 
 .banner {
-  background-image: url("../img/slide1.jpeg");
+  background-image: url("../img/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 80vh;
   height: 600px;
   background-attachment: fixed;
   background-position: center;
-}
-
-.line {
-  border-top: 1px solid black;
-  width: 93px;
-  margin-top: 10px;
-  margin-right: 5px;
 }
 
 h1 {
@@ -104,23 +103,108 @@ h1 {
   text-transform: uppercase;
 }
 
-h2 {
-  text-align: center;
-  text-transform: uppercase;
-  color: #795aa5;
-  font-size: 30px;
+.sobre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 50px;
 }
 
-table {
-  background-color: #efd079;
-  text-align: center;
+.sobre img {
   width: 50%;
-  margin: auto;
-  border-radius: 4px;
-  font-weight: bold;
 }
 
-tr {
-  height: 40px;
+.sobre p {
+  padding-left: 30px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cards img {
+  width: 100%;
+}
+
+.celebration-day {
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  margin-top: 60px;
+  text-align: center;
+  width: 60%;
+  margin: 8% auto;
+}
+
+.celebration-day tr {
+  font-family: PTSans;
+  font-size: 16px;
+  height: 33px;
+}
+
+.flex--footer {
+  background-color: #1d1819;
+}
+
+.location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #d4d1d1;
+  padding: 20px;
+}
+
+.andress {
+  margin-right: 5%;
+  font-size: 13px;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+}
+
+.rede--sociais {
+  padding: 20px;
+}
+
+.developer {
+  text-align: center;
+  background-color: #312f2f;
+  padding: 10px;
+  color: #c4c0c0;
+  font-size: 12px;
+}
+
+.developer p {
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+.flex--footer{
+  background-color: #1d1819;
+
+}
+
+.location{
+  @include flex(center, center);
+  color: rgb(212, 209, 209);
+  padding: 20px;
+ 
+}
+
+.andress{
+margin-right: 5%;
+font-size: 13px;
+ }
+
+
+.icon{
+  @include flex(center, center);
+  margin: 0;
+
+}
+
+.rede--sociais{
+  padding: 20px;
+
+}
+
+.developer{
+  text-align: center;
+  background-color: #312f2f;
+  padding: 10px;
+  color: rgb(196, 192, 192);
+  font-size: 12px;
+}
+
+.developer p{
+  margin: 0;
+  padding: 0;
+}
